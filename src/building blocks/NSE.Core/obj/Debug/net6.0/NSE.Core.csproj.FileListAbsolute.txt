@@ -1,0 +1,12 @@
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\net6.0\NSE.Core.deps.json
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\net6.0\NSE.Core.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\net6.0\NSE.Core.pdb
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.csproj.AssemblyReference.cache
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.AssemblyInfoInputs.cache
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.AssemblyInfo.cs
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.csproj.CoreCompileInputs.cache
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\refint\NSE.Core.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\NSE.Core.pdb
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net6.0\ref\NSE.Core.dll
