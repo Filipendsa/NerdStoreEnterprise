@@ -7,7 +7,7 @@ using NSE.Identidade.API.Configuration;
 
 namespace NSE.Identidade.API
 {
-    public class Startup
+    public class Startup : IStartup
     {
         public IConfiguration Configuration { get; }
 
@@ -41,6 +41,29 @@ namespace NSE.Identidade.API
             app.UseSwaggerConfiguration();
 
             app.UseApiConfiguration(env);
+        }
+    }
+    public interface IStartup
+    {
+        IConfiguration Configuration { get; }
+        void Configure(IApplicationBuilder app, IWebHostEnvironment env);
+        void ConfigureServices(IServiceCollection services);
+    }
+    public static class StartupExtensions
+    {
+        public static WebApplicationBuilder UseStartup<TStartup>(this WebApplicationBuilder WebAppBuilder) where TStartup : IStartup
+        {
+            var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Configuration) as IStartup;
+            if (startup == null) throw new ArgumentException("Classe Startup.cs inválida");
+
+            startup.ConfigureServices(WebAppBuilder.Services);
+
+            var app = WebAppBuilder.Build();
+            startup.Configure(app, app.Environment);
+
+            app.Run();
+
+            return WebAppBuilder;
         }
     }
 }
