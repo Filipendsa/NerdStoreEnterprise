@@ -9,6 +9,11 @@ namespace NSE.Identidade.API
 {
     public class Startup : IStartup
     {
+        public Startup(ConfigurationManager configuration)
+        {
+            Configuration = configuration;
+        }
+
         public IConfiguration Configuration { get; }
 
         public Startup(IHostEnvironment hostEnvironment)
@@ -53,7 +58,7 @@ namespace NSE.Identidade.API
     {
         public static WebApplicationBuilder UseStartup<TStartup>(this WebApplicationBuilder WebAppBuilder) where TStartup : IStartup
         {
-            var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Configuration) as IStartup;
+            IStartup? startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Configuration) as IStartup;
             if (startup == null) throw new ArgumentException("Classe Startup.cs inválida");
 
             startup.ConfigureServices(WebAppBuilder.Services);

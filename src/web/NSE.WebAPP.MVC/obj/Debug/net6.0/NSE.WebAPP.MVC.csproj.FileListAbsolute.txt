@@ -24,3 +24,11 @@ C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE
 C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\obj\Debug\net6.0\NSE.WebAPP.MVC.pdb
 C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\obj\Debug\net6.0\NSE.WebAPP.MVC.genruntimeconfig.cache
 C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\obj\Debug\net6.0\ref\NSE.WebAPP.MVC.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\filipe.nogueira\source\repos\Filipendsa\NerdStoreEnterprise\src\web\NSE.WebAPP.MVC\obj\Debug\net6.0\NSE.WebApp.MVC.csproj.CopyComplete
