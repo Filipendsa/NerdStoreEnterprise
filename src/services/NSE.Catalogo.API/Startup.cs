@@ -1,4 +1,10 @@
-﻿namespace NSE.Catalogo.API
+﻿using Microsoft.EntityFrameworkCore;
+using NSE.Catalogo.API.Configuration;
+using NSE.Catalogo.API.Data;
+using NSE.Catalogo.API.Data.Repository;
+using NSE.Catalogo.API.Models;
+
+namespace NSE.Catalogo.API
 {
     public class Startup : IStartup
     {
@@ -27,27 +33,20 @@
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddApiConfiguration(Configuration);
+
+            //services.AddJwtConfiguration(Configuration);
+
+            services.AddSwaggerConfiguration();
+
+            services.RegisterServices();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (!env.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
+            app.UseSwaggerConfiguration();
 
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.UseApiConfiguration(env);
 
         }
     }
